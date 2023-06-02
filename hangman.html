@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="hangman.css">
+    <title>Hangman App</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="drawing-section">
+            <div class="point-section">
+                <p>Puan:</p><p id="point">0</p>
+            </div>
+            <canvas id="drawing-inner-section">
+
+            </canvas>
+        </div>
+        <div class="guess-section">
+            <div class="letters-section">
+
+                <button class="letter-button" onclick="showLetter(this)">Q</button>
+                <button class="letter-button" onclick="showLetter(this)">W</button>
+                <button class="letter-button" onclick="showLetter(this)">E</button>
+                <button class="letter-button" onclick="showLetter(this)">R</button>
+                <button class="letter-button" onclick="showLetter(this)">T</button>
+                <button class="letter-button" onclick="showLetter(this)">Y</button>
+                <button class="letter-button" onclick="showLetter(this)">U</button>
+                <button class="letter-button" onclick="showLetter(this)">I</button>
+                <button class="letter-button" onclick="showLetter(this)">O</button>
+                <button class="letter-button" onclick="showLetter(this)">P</button>
+                <button class="letter-button" onclick="showLetter(this)">A</button>
+                <button class="letter-button" onclick="showLetter(this)">S</button>
+                <button class="letter-button" onclick="showLetter(this)">D</button>
+                <button class="letter-button" onclick="showLetter(this)">F</button>
+                <button class="letter-button" onclick="showLetter(this)">G</button>
+                <button class="letter-button" onclick="showLetter(this)">H</button>
+                <button class="letter-button" onclick="showLetter(this)">J</button>
+                <button class="letter-button" onclick="showLetter(this)">K</button>
+                <button class="letter-button" onclick="showLetter(this)">L</button>
+                <button class="letter-button" onclick="showLetter(this)">Z</button>
+                <button class="letter-button" onclick="showLetter(this)">X</button>
+                <button class="letter-button" onclick="showLetter(this)">C</button>
+                <button class="letter-button" onclick="showLetter(this)">V</button>
+                <button class="letter-button" onclick="showLetter(this)">B</button>
+                <button class="letter-button" onclick="showLetter(this)">N</button>
+                <button class="letter-button" onclick="showLetter(this)">M</button>
+                
+            </div>
+            <div id="word-section">
+
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="hangman.js"></script>
+</html>
